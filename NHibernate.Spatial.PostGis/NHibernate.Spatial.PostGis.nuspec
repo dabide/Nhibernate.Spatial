@@ -1,18 +1,21 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
-    <metadata>
-        <id>$id$</id>
-        <version>$version$</version>
-        <title />
-        <authors>Ricardo Stuven,suryapratap</authors>
-        <owners>dabide</owners>
-        <requireLicenseAcceptance>false</requireLicenseAcceptance>        
-        <description>
-          This is not the official NH Spatial repo, this is only a copy of the final commit at Nhibernate Contrib site, the code has been modified slightly to get it to compile with the latest NTS, GeoAPI and Nhibernate binaries.
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title />
+    <authors>Ricardo Stuven,suryapratap</authors>
+    <owners>dabide</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>
+      This is not the official NH Spatial repo, this is only a copy of the final commit at Nhibernate Contrib site, the code has been modified slightly to get it to compile with the latest NTS, GeoAPI and Nhibernate binaries.
 
-          $description$
-        </description>
-      <summary>NHibernate.Spatial for PostGis</summary>
-    </metadata>
-    <files />
+      $description$
+    </description>
+    <summary>NHibernate.Spatial for PostGis</summary>
+    <dependencies>
+      <dependency id="NHibernate.Spatial" />
+    </dependencies>
+  </metadata>
+  <files />
 </package>
