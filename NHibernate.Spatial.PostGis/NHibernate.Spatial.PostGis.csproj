@@ -98,6 +98,7 @@
     <EmbeddedResource Include="Metadata\SpatialReferenceSystem.PostGisDialect.hbm.xml" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="NHibernate.Spatial.PostGis.nuspec" />
     <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
